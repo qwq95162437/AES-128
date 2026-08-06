@@ -1,0 +1,7 @@
+Running: xsim.dir/aes_fault_modelA_tb_behav/xsimk.exe -simmode gui -wdb aes_fault_modelA_tb_behav.wdb -simrunnum 0 -socket 7184
+Design successfully loaded
+Design Loading Memory Usage: 12264 KB (Peak: 12264 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 21456 KB (Peak: 21456 KB)
+Simulation CPU Usage: 983 ms

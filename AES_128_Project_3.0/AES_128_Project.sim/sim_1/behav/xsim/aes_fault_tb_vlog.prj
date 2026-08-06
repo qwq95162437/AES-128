@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../AES_128_Project.srcs/sources_1/new/aes_round.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/aes_round_fault_mc_pre.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/aes_top.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/fault_inject_ctrl.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/final_round.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/key_expansion.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/mix_columns.v" \
+"../../../../AES_128_Project.srcs/sources_1/new/shift_rows.v" \
+"../../../../../../FINAL/AES_128_Project_3.0/AES_128_Project.srcs/sources_1/new/sub_bytes.v" \
+"../../../../AES_128_Project.srcs/sim_1/new/aes_fault_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

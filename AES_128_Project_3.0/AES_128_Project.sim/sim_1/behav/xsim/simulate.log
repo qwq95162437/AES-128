@@ -1,0 +1,126 @@
+Time resolution is 1 ps
+
+====================================================
+                Fault Injection Summary             
+====================================================
+
+--------------------------------------------
+Model A : Ideal single-byte random multi-bit flip
+--------------------------------------------
+Total samples                = 320
+Actual inject success count  = 320
+Actual inject success rate   = 100.00%
+Average diff nonzero bytes   = 4.0000
+Average fault HW             = 2.2031
+DFA-valid sample count       = 320
+DFA-valid sample rate        = 100.00%
+Actual hit distribution over byte positions:
+  byte[0] : 24
+  byte[1] : 25
+  byte[2] : 17
+  byte[3] : 16
+  byte[4] : 18
+  byte[5] : 17
+  byte[6] : 14
+  byte[7] : 22
+  byte[8] : 25
+  byte[9] : 29
+  byte[10] : 20
+  byte[11] : 21
+  byte[12] : 17
+  byte[13] : 13
+  byte[14] : 25
+  byte[15] : 17
+
+--------------------------------------------
+Model B : Sparse random bit-flip model
+--------------------------------------------
+Total samples                = 320
+Actual inject success count  = 320
+Actual inject success rate   = 100.00%
+Average diff nonzero bytes   = 4.0000
+Average fault HW             = 1.5000
+DFA-valid sample count       = 320
+DFA-valid sample rate        = 100.00%
+Actual hit distribution over byte positions:
+  byte[0] : 21
+  byte[1] : 16
+  byte[2] : 19
+  byte[3] : 18
+  byte[4] : 20
+  byte[5] : 20
+  byte[6] : 23
+  byte[7] : 25
+  byte[8] : 17
+  byte[9] : 17
+  byte[10] : 20
+  byte[11] : 21
+  byte[12] : 20
+  byte[13] : 23
+  byte[14] : 14
+  byte[15] : 26
+
+--------------------------------------------
+Model C : Random bit model with spatial offset
+--------------------------------------------
+Total samples                = 320
+Actual inject success count  = 320
+Actual inject success rate   = 100.00%
+Average diff nonzero bytes   = 4.0000
+Average fault HW             = 1.4156
+DFA-valid sample count       = 320
+DFA-valid sample rate        = 100.00%
+Actual hit distribution over byte positions:
+  byte[0] : 23
+  byte[1] : 19
+  byte[2] : 14
+  byte[3] : 25
+  byte[4] : 18
+  byte[5] : 16
+  byte[6] : 18
+  byte[7] : 27
+  byte[8] : 17
+  byte[9] : 27
+  byte[10] : 27
+  byte[11] : 22
+  byte[12] : 17
+  byte[13] : 18
+  byte[14] : 17
+  byte[15] : 15
+
+--------------------------------------------
+Model D : Mixed fault model with timing jitter
+--------------------------------------------
+Total samples                = 320
+Actual inject success count  = 236
+Actual inject success rate   = 73.75%
+Average diff nonzero bytes   = 2.9500
+Average fault HW             = 1.1906
+DFA-valid sample count       = 236
+DFA-valid sample rate        = 73.75%
+Model D miss count           = 84
+Model D miss rate            = 26.25%
+Actual hit distribution over byte positions:
+  byte[0] : 20
+  byte[1] : 17
+  byte[2] : 11
+  byte[3] : 15
+  byte[4] : 8
+  byte[5] : 10
+  byte[6] : 15
+  byte[7] : 15
+  byte[8] : 16
+  byte[9] : 26
+  byte[10] : 14
+  byte[11] : 15
+  byte[12] : 17
+  byte[13] : 12
+  byte[14] : 13
+  byte[15] : 12
+
+====================================================
+All simulations finished, time = 38426000
+====================================================
+
+Simulation Finished
+$finish called at time : 38426 ns : File "D:/AES_workspace/AES_128_Project_3.0/AES_128_Project.srcs/sim_1/new/aes_fault_tb.v" Line 276
